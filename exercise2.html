@@ -19,6 +19,14 @@
 
         }
 
+        p a{
+            background-color: rbga(255,0,0,0.5);
+
+        }
+        a:visited{
+            color: white;
+        }
+
         body{
             background-image: url(images/labo3web.jpg); 
             background-position: center;
@@ -37,15 +45,16 @@
             text-align: center;
         }
 
-        tr:nth-child(odd){
+        tr:nth-child(even){
             background-color: lightblue;
         }
-        tr:nth-child(even){
+        tr:nth-child(odd){
             color:white;
         }
-        tr:nth-child(10){
+        tr:nth-child(9){
             background-color: black;
         }
+        
 
     </style>
 </head>
@@ -71,7 +80,7 @@
         <td>2800</td>
     </tr>
 
-    <tr></tr>
+    <tr>
         <th>Loyer</th>
         <td>4500</td>
         <td>4500</td>
